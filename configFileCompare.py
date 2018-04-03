@@ -1,7 +1,6 @@
 #This program will:
 # * Connect to a router via Telnet and it will compare the running-config file to the startup-config file on that device (this can be usually done with: show archive config differences)
 # * Compare a locally stored config file (.txt) with the running-config file or startup-config file running on a router.
-#Please see the "Python File Operations" section in the course for a recap of the necessary concepts.
 #Don't forget to configure Telnet access on the router!
 
 #username teopy privilege 15 password 0 python
