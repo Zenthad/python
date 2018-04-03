@@ -1,5 +1,3 @@
-        ############# Application #1 - Part #1 #############
-
 import random
 import sys
 
@@ -36,9 +34,7 @@ def subnet_calc():
             else:
                 print "\nThe subnet mask is INVALID! Please retry!\n"
                 continue
-         
-	############# Application #1 - Part #2 #############
-		 
+         		 
         #Algorithm for subnet identification, based on IP and Subnet Mask
         
         #Convert mask to binary string
@@ -84,9 +80,7 @@ def subnet_calc():
         
         wildcard_mask = ".".join(wildcard_octets)
         #print wildcard_mask
-        
-        ############# Application #1 - Part #3 #############
-        
+                
         #Convert IP to binary string
         ip_octets_padded = []
         ip_octets_decimal = ip_address.split(".")
@@ -156,9 +150,7 @@ def subnet_calc():
         print "Wildcard mask: %s" % wildcard_mask
         print "Mask bits: %s" % no_of_ones
         print "\n"
-        
-        ############# Application #1 - Part #4 #############
-        
+                
         #Generation of random IP in subnet
         while True:
             generate = raw_input("Generate random ip address from subnet? (y/n)")
